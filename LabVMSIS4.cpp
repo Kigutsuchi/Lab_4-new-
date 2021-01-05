@@ -118,14 +118,38 @@ int main()
     string tHabitat, tMainFood, tGenus, tKAnim;
     int tFlock, tNum;
 
-    cout << "\nStart\n";
+     string tHabitat, tMainFood, tGenus, tKAnim;
+    int tFlock, tNum;
+    cout << "Input habitat" << endl;
     input(tHabitat);
+    cout << "Input main food" << endl;
     input(tMainFood);
+    cout << "Input genus" << endl;
     input(tGenus);
+    cout << "Input king of animal" << endl;
     input(tKAnim);
+    cout << "Input num individuals" << endl;
     tNum = input();
+    cout << "Input num of flock" << endl;
     tFlock = input();
 
     number a1(tHabitat, tMainFood, tGenus, tKAnim, tFlock, tNum);
+
+    cout << "Input habitat" << endl;
+    input(tHabitat);
+    cout << "Input main food" << endl;
+    input(tMainFood);
+    cout << "Input genus" << endl;
+    input(tGenus);
+    cout << "Input king of animal" << endl;
+    input(tKAnim);
+    cout << "Input num individuals" << endl;
+    tNum = input();
+    cout << "Input num of flock" << endl;
+    tFlock = input();
+
+    number a2(tHabitat, tMainFood, tGenus, tKAnim, tFlock, tNum);
+
     a1.out();
+    a2.out();
 }
